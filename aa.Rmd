@@ -1,0 +1,35 @@
+---
+title: "questions"
+author: "Subhadip Pal"
+date: "June 28, 2021"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+ Let $y_{i,j} = \beta +\gamma_i +\epsilon_{i,j}$ for  $i= 1, \ldots T, $ and $ j=1\ldots B$. Here the  $\gamma_i$ is independent $N(0,\sigma_{\gamma}^2)$ and the $ \epsilon_{i,j}$'s are independent $N(0, \sigma_{\epsilon}^2)$, and the $\gamma_i$s and  the $e_{i,j}$s are independent. Here we assume $\esig$ and $\gsig$ are unknown and required to be estimated.
+
+Represent the above model in terms of the standard matrix  form of the mixed linear model :
+$\HLTEQ[lightBlueThree]{\bY=\bX\bbeta+\bZ \HLTEQ[orange]{\gammabf}+\HLTEQ[lightBlueOne]{\epsilonbf}}$
+Specify 1) $\bX$, $\bY$, $\bZ$, $\gammabf$, $\epsilonbf$
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
